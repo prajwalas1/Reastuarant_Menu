@@ -27,7 +27,7 @@ const Navbar = () => {
            <Link to="/menu">Menu</Link>
            <Link to="/about">About</Link>
            <Link to="/contact">Contact</Link>
-           <Button>
+           <Button onClick={click}>
            <ReorderIcon/>
            </Button>
         </div>
